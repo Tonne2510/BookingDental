@@ -1,0 +1,639 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\priceview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\priceview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\views\\home\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\noresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\noresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\confirmpaymentclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\confirmpaymentclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\bookingview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\bookingview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\bloggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\bloggrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\views\\home\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\nhasi1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\nhasi1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\icon_dental.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\icon_dental.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\hero.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\hero.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\blog-3.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\blog-3.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\blog-2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\blog-2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\blog-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\blog-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\about.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\about.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\diendan\\diendan1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\diendan\\diendan1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\diendan\\diendan2a.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\diendan\\diendan2a.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\img\\diendan\\diendan3b.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:img\\diendan\\diendan3b.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|c:\\dacs\\booking dental clinic\\booking dental clinic\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\areas\\nhasi\\controllers\\managerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:areas\\nhasi\\controllers\\managerbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\areas\\admin\\views\\manageruser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:areas\\admin\\views\\manageruser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic.csproj|solutionrelative:views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Thanhtoan.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Thanhtoan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Thanhtoan.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Thanhtoan.cshtml",
+              "RelativeToolTip": "Views\\Home\\Thanhtoan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:58:31.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testimonial.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Testimonial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Testimonial.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Testimonial.cshtml",
+              "RelativeToolTip": "Views\\Home\\Testimonial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:58:27.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Team.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Team.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Team.cshtml",
+              "RelativeToolTip": "Views\\Home\\Team.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:58:24.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Service.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Service.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Service.cshtml",
+              "RelativeToolTip": "Views\\Home\\Service.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:58:21.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PriceView.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\PriceView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PriceView.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\PriceView.cshtml",
+              "RelativeToolTip": "Views\\Home\\PriceView.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAB4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:59.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoResults.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\NoResults.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\NoResults.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\NoResults.cshtml",
+              "RelativeToolTip": "Views\\Home\\NoResults.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:52.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:37.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConfirmPaymentClient.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\ConfirmPaymentClient.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ConfirmPaymentClient.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\ConfirmPaymentClient.cshtml",
+              "RelativeToolTip": "Views\\Home\\ConfirmPaymentClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:34.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingView.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BookingView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\BookingView.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BookingView.cshtml",
+              "RelativeToolTip": "Views\\Home\\BookingView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:57:31.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogGrid.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BlogGrid.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\BlogGrid.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BlogGrid.cshtml",
+              "RelativeToolTip": "Views\\Home\\BlogGrid.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:55:58.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BlogDetail.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BlogDetail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\BlogDetail.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\BlogDetail.cshtml",
+              "RelativeToolTip": "Views\\Home\\BlogDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:55:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:55:02.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:53:23.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "nhasi1.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\nhasi1.jpg",
+              "RelativeDocumentMoniker": "img\\nhasi1.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\nhasi1.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "RelativeToolTip": "img\\nhasi1.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:12.483Z",
+              "EditorCaption": " - Bitmap [1920x2560, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "icon_dental.ico - Icon [256x256, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\icon_dental.ico",
+              "RelativeDocumentMoniker": "img\\icon_dental.ico",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\icon_dental.ico - Icon [256x256, 32 bit, BMP]",
+              "RelativeToolTip": "img\\icon_dental.ico - Icon [256x256, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-05-13T15:48:11.646Z",
+              "EditorCaption": " - Icon [256x256, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "hero.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\hero.jpg",
+              "RelativeDocumentMoniker": "img\\hero.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\hero.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "RelativeToolTip": "img\\hero.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:07.696Z",
+              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "blog-3.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-3.jpg",
+              "RelativeDocumentMoniker": "img\\blog-3.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-3.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "RelativeToolTip": "img\\blog-3.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:07.086Z",
+              "EditorCaption": " - Bitmap [800x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "blog-2.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-2.jpg",
+              "RelativeDocumentMoniker": "img\\blog-2.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-2.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "RelativeToolTip": "img\\blog-2.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:06.493Z",
+              "EditorCaption": " - Bitmap [800x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "blog-1.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-1.jpg",
+              "RelativeDocumentMoniker": "img\\blog-1.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\blog-1.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "RelativeToolTip": "img\\blog-1.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:05.878Z",
+              "EditorCaption": " - Bitmap [800x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "about.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\about.jpg",
+              "RelativeDocumentMoniker": "img\\about.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\about.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "RelativeToolTip": "img\\about.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:05.032Z",
+              "EditorCaption": " - Bitmap [800x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "diendan1.jpg - Bitmap [793x446, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan1.jpg",
+              "RelativeDocumentMoniker": "img\\diendan\\diendan1.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan1.jpg - Bitmap [793x446, 24 bit, JPG]",
+              "RelativeToolTip": "img\\diendan\\diendan1.jpg - Bitmap [793x446, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:02.505Z",
+              "EditorCaption": " - Bitmap [793x446, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "diendan2a.jpg - Bitmap [817x520, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan2a.jpg",
+              "RelativeDocumentMoniker": "img\\diendan\\diendan2a.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan2a.jpg - Bitmap [817x520, 24 bit, JPG]",
+              "RelativeToolTip": "img\\diendan\\diendan2a.jpg - Bitmap [817x520, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:48:00.581Z",
+              "EditorCaption": " - Bitmap [817x520, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "diendan3b.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan3b.jpg",
+              "RelativeDocumentMoniker": "img\\diendan\\diendan3b.jpg",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\img\\diendan\\diendan3b.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "RelativeToolTip": "img\\diendan\\diendan3b.jpg - Bitmap [800x500, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-13T15:47:59.6Z",
+              "EditorCaption": " - Bitmap [800x500, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:45:54.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.Release.config",
+              "RelativeDocumentMoniker": "Web.Release.config",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.Release.config",
+              "RelativeToolTip": "Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T15:30:06.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.Debug.config",
+              "RelativeDocumentMoniker": "Web.Debug.config",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.Debug.config",
+              "RelativeToolTip": "Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T15:30:01.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T15:29:20.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T14:30:47.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "App_Start\\Startup.Auth.cs",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:30:47.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAewN4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:30:47.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ManagerBookingController.cs",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\ManagerBookingController.cs",
+              "RelativeDocumentMoniker": "Areas\\NhaSi\\Controllers\\ManagerBookingController.cs",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\ManagerBookingController.cs",
+              "RelativeToolTip": "Areas\\NhaSi\\Controllers\\ManagerBookingController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:30:47.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Views\\ManagerUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ManagerUser\\Index.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Views\\ManagerUser\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ManagerUser\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:30:47.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Price.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Price.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Price.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Price.cshtml",
+              "RelativeToolTip": "Views\\Home\\Price.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:30:47.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchResults.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\SearchResults.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SearchResults.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\SearchResults.cshtml",
+              "RelativeToolTip": "Views\\Home\\SearchResults.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:30:47.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Search.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "Views\\Home\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:30:47.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Appointment.cshtml",
+              "DocumentMoniker": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Appointment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Appointment.cshtml",
+              "ToolTip": "C:\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Home\\Appointment.cshtml",
+              "RelativeToolTip": "Views\\Home\\Appointment.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T14:30:47.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

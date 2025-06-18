@@ -1,0 +1,124 @@
+﻿@model Booking_Dental_Clinic.Models.HoaDon
+@{
+    ViewBag.Title = "Thanhtoan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SelectListItem> GetPaymentMethods()
+    {
+        List<SelectListItem> paymentMethods = new List<SelectListItem>();
+        paymentMethods.Add(new SelectListItem { Text = "Thanh toán trực tiếp", Value = "1" });
+        paymentMethods.Add(new SelectListItem { Text = "Thanh toán bằng Momo", Value = "2" });
+        return paymentMethods;
+    }
+    Booking_Dental_Clinic.Models.DentalClinicEntities db = new Booking_Dental_Clinic.Models.DentalClinicEntities();
+    var goidichvu = db.GoiDichVus.ToList();
+}<!-- THANH TOÁN -->
+<div class="container-fluid bg-primary my-5 py-5">
+    <div class="container py-5">
+        <div class="row gx-5">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="mb-4">
+                    <h1 class="text-uppercase border-bottom border-5 display-4">Thanh toán </h1>
+                </div>
+                <p class="text-white mb-5">Chúng tôi xin gửi lời cảm ơn chân thành vì đã lựa chọn dịch vụ của chúng tôi và tin tưởng vào chúng tôi để thực hiện thanh toán. Chúng tôi trân trọng sự ủng hộ và đánh giá cao sự tin tưởng mà bạn đã dành cho chúng tôi.</p>
+                <p class="text-white mb-5">Việc chọn thanh toán bên dịch vụ của chúng tôi không chỉ mang lại lợi ích cho bạn mà còn giúp chúng tôi duy trì và phát triển các dịch vụ chất lượng cao hơn. Sự hỗ trợ của bạn là một phần quan trọng để chúng tôi tiếp tục cung cấp những giải pháp và trải nghiệm tốt nhất cho khách hàng của chúng tôi.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-white text-center rounded p-5">
+                    <h1 class="mb-4">THANH TOÁN GÓI DỊCH VỤ</h1>
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="row g-3">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="col-12 col-sm-6">
+                                <select id="Id_GoiDichVu" name="Id_GoiDichVu" class="form-control">
+                                    @foreach (var dichvu in goidichvu)
+                                    {
+                                        if (dichvu.Id_DichVu == ViewBag.Id_DichVu)
+                                        {
+                                            <option value="@dichvu.Id_DichVu" selected="@ViewBag.Id_DichVu">@dichvu.TenDichVu</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@dichvu.Id_DichVu">@dichvu.TenDichVu</option>
+                                        }
+                                    }
+                                </select>
+                                @Html.ValidationMessageFor(model => model.Id_GoiDichVu, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label class="form-control" id="labelTongTien">@String.Format("{0:0,0}", ViewBag.GiaDichVu) đ</label>
+                                <input class="form-control text-box single-line" id="Tongtien" name="Tongtien" type="text" value="@ViewBag.GiaDichVu" placeholder="Tổng tiền" hidden>
+                                @Html.ValidationMessageFor(model => model.TongTien, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                @Html.DropDownListFor(model => model.ID_ThanhToan, GetPaymentMethods(), "Chọn Hình Thức Thanh Toán", htmlAttributes: new { @class = "form-control", id = "ddlPaymentType" })
+                                @Html.ValidationMessageFor(model => model.ID_ThanhToan, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                @Html.DropDownList("IDBACSI", null, "Chọn Nha Sĩ", htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.NhaSi, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input class="form-control text-box single-line" id="id" name="id" type="text" value="@ViewBag.Id" placeholder="Id" hidden>
+                                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                            </div>
+                            <div id="paymentType1" class="col-12 col-sm-6">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Thanh toán" class="btn btn-default btn-primary" />
+                                </div>
+                            </div>
+                            @*<div id="paymentType2" class="col-12 col-sm-6">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <a class="btn btn-default" href="@Url.Action("ThanhToan","Home")">Thanh toán</a>
+                                    </div>
+                                </div>*@
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- KẾT THÚC THANH TOÁN -->
+@*<script>
+        document.getElementById("ddlPaymentType").addEventListener("change", function () {
+            var selectedValue = $(this).val();
+            // Kiểm tra giá trị đã chọn
+            if (selectedValue === '1') {
+                $('#paymentType2').hide(); // Ẩn phần tử có id="paymentType2"
+            } else {
+                $('#paymentType2').show(); // Hiển thị phần tử có id="paymentType2"
+            }
+            var selectedValue = this.value;
+            var paymentType1 = document.getElementById("paymentType1");
+
+            if (selectedValue === "2") {
+                paymentType1.style.display = "none";
+            } else {
+                paymentType1.style.display = "block";
+            }
+        });
+    </script>*@
+<script>
+    document.addEventListener("DOMContentLoaded", (_) => {
+        document.querySelector("select").addEventListener("change", (e) => {
+            if (e.target.value == 1) {
+                document.getElementById('labelTongTien').innerHTML
+                    = '5,000,000 đ';
+                document.getElementById("Tongtien").value = 5000000;
+            }
+            if (e.target.value == 2) {
+                document.getElementById('labelTongTien').innerHTML
+                    = '4,000,000 đ';
+                document.getElementById("Tongtien").value = 4000000;
+            }
+            if (e.target.value == 3) {
+                document.getElementById('labelTongTien').innerHTML
+                    = '15,000,000 đ';
+                document.getElementById("Tongtien").value = 15000000;
+            }
+        });
+    });
+</script>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Booking_Dental_Clinic.Models.HoaDon>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/NhaSi/Views/Shared/_LayoutNhaSi.cshtml";
+}
+
+<div class="container">
+    <h2>Xem gói dịch vụ</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tổng Tiền</th>
+                <th>Email</th>
+                <th>Tên Dịch Vụ</th>
+                <th>Hình Thức Thanh Toán</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.TongTien)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AspNetUser.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.GoiDichVu.TenDichVu)</td>
+                    <td>@Html.DisplayFor(modelItem => item.HinhThucThanhToan.TenHinhThuc)</td>
+                    <td>
+                        @if (item.TrangThai == true)
+                        {
+                            <text>Đã thanh toán</text>
+                        }
+                        else
+                        {
+                            <text>Chưa thanh toán</text>
+                        }
+                        </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

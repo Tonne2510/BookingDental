@@ -1,0 +1,68 @@
+﻿@model Booking_Dental_Clinic.Models.HoaDon
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Details</h2>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">HoaDon</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.TongTien)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.TongTien)
+                        </dd>
+
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.TrangThai)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.TrangThai)
+                        </dd>
+
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.AspNetUser.Email)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.AspNetUser.Email)
+                        </dd>
+
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.GoiDichVu.TenDichVu)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.GoiDichVu.TenDichVu)
+                        </dd>
+
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.HinhThucThanhToan.TenHinhThuc)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.HinhThucThanhToan.TenHinhThuc)
+                        </dd>
+
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.NhaSi.Ten)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.NhaSi.Ten)
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                @Html.ActionLink("Back to List", "Index", new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>

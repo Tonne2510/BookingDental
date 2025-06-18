@@ -1,0 +1,55 @@
+﻿@model PagedList.IPagedList<Booking_Dental_Clinic.Models.AspNetUser>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h1 class="mt-4">Quản lý tài khoản khách</h1>
+<!--Tìm Kiếm-->
+@using (Html.BeginForm("Index", "ManagerUser", FormMethod.Get))
+{
+    <p>
+        Tìm kiếm: @Html.TextBox("searchString", ViewBag.SearchString as string)
+        <input type="submit" value="Tìm kiếm" />
+    </p>
+}
+<!-- Hiển thị danh sách các nha sĩ -->
+<table class="table ">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Tên đăng nhập</th>
+            <th> Số điện thoại</th>
+            <th>Tên</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                <td>
+                    <div class="btn-group">
+                        @*<a class="btn btn-sm btn-success" href="~/Admin/ManagerUser/Edit?id=@item.Id"><i class="fas fa-edit"></i> Cập nhật</a>
+                        <a class="btn btn-sm btn-danger" href="~/Admin/ManagerUser/Delete?id=@item.Id"><i class="fas fa-trash"></i> Xóa</a>*@
+                        <a class="btn btn-sm btn-info" href="~/Admin/ManagerUser/Details?id=@item.Id"><i class="fas fa-info-circle"></i> Chi tiết</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="row mt-4">
+    <div class="col">
+        <div class="d-flex justify-content-center">
+            Trang @(Model.PageNumber) / @Model.PageCount
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.OnlyShowFivePagesAtATime)
+        </div>
+    </div>
+</div>

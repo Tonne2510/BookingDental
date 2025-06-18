@@ -1,0 +1,84 @@
+﻿@model Booking_Dental_Clinic.Models.LichHen
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/NhaSi/Views/Shared/_LayoutNhaSi.cshtml";
+}
+
+<div class="container">
+    <h2>Delete</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">LichHen</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Tenkhachhang)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Tenkhachhang)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Sdt)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Sdt)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Ngaydat)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Ngaydat)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.GioBatDau)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.GioBatDau)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.GioKetThuc)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.GioKetThuc)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.AspNetUser.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.AspNetUser.Email)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.LoaiDichVu.Ten)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.LoaiDichVu.Ten)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.NhaSi.Ten)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.NhaSi.Ten)
+                </dd>
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions text-center">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

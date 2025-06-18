@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|c:\\users\\gmt\\downloads\\dacs\\booking dental clinic\\booking dental clinic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|solutionrelative:booking dental clinic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|c:\\users\\gmt\\downloads\\dacs\\booking dental clinic\\booking dental clinic\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|solutionrelative:booking dental clinic\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|c:\\users\\gmt\\downloads\\dacs\\booking dental clinic\\booking dental clinic\\areas\\nhasi\\controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|solutionrelative:booking dental clinic\\areas\\nhasi\\controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|c:\\users\\gmt\\downloads\\dacs\\booking dental clinic\\booking dental clinic\\areas\\admin\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5ED34F-444E-4B7C-8B18-470CA828694C}|Booking Dental Clinic\\Booking Dental Clinic.csproj|solutionrelative:booking dental clinic\\areas\\admin\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Booking Dental Clinic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Booking Dental Clinic\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T13:49:35.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoController.cs",
+              "DocumentMoniker": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\InfoController.cs",
+              "RelativeDocumentMoniker": "Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\InfoController.cs",
+              "ToolTip": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\InfoController.cs",
+              "RelativeToolTip": "Booking Dental Clinic\\Areas\\NhaSi\\Controllers\\InfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:31:45.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Booking Dental Clinic\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Booking Dental Clinic\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:31:25.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Booking Dental Clinic\\Areas\\Admin\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\GMT\\Downloads\\dacs\\Booking Dental Clinic\\Booking Dental Clinic\\Areas\\Admin\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Booking Dental Clinic\\Areas\\Admin\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:29:53.564Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

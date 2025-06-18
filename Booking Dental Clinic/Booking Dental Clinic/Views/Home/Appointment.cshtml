@@ -1,0 +1,153 @@
+﻿@model Booking_Dental_Clinic.Models.LichHen
+@{
+    ViewBag.Title = "Appointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Booking_Dental_Clinic.Models.DentalClinicEntities db = new Booking_Dental_Clinic.Models.DentalClinicEntities();
+    var nhasi = db.NhaSis.ToList();
+}
+<!-- ĐẶT LỊCH -->
+<div class="container-fluid bg-primary my-5 py-5">
+    <div class="container py-5">
+        <div class="row gx-5">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="mb-4">
+                    <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">ĐẶT LỊCH</h5>
+                    <h1 class="display-4">Đặt Hẹn Cho Gia Đình Bạn</h1>
+                </div>
+                <p class="text-white mb-5">Đặt lich đi </p>
+                <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Thời Gian Làm Việc</h5>
+                <p class="text-white">Thứ 2-7: 8h00 - 20h00 </p>
+                <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">TÌM BÁC SĨ</a>
+                <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">THÊM</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-white text-center rounded p-5">
+                    <h1 class="mb-4">ĐẶT LỊCH TRỰC TUYẾN VỚI BÁC SĨ</h1>
+                    @using (Html.BeginForm("Appointment", "Home", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="row g-3">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="col-12 col-sm-6">
+                                <input class="form-control text-box single-line" id="Tenkhachhang" name="Tenkhachhang" type="text" value="@ViewBag.Ten" placeholder="Họ và tên" required>
+                                @Html.ValidationMessageFor(model => model.Tenkhachhang, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <input class="form-control text-box single-line" data-val="true" data-val-number="The field Sdt must be a number." id="Sdt" name="Sdt" type="text" value="@ViewBag.Sdt" placeholder="Số điện thoại" required>
+                                @Html.ValidationMessageFor(model => model.Sdt, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                @Html.DropDownList("IDDICHVU", null, "Chọn dịch vụ", htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.IDDICHVU, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                @{
+                                    int selectedBacSi = 0;
+                                    if (ViewBag.IDBACSI != null)
+                                    {
+                                        int.TryParse(ViewBag.IDBACSI.ToString(), out selectedBacSi);
+                                    }
+                                }
+                                <select id="IDBACSI" name="IDBACSI" class="form-control">
+                                    <option value="">Chọn nha sĩ</option>
+                                    @foreach (var nhaSi in nhasi)
+                                    {
+                                        if (nhaSi.IDBACSI == selectedBacSi)
+                                        {
+                                            <option value="@nhaSi.IDBACSI" data-start-time="@nhaSi.GioBatDau" data-end-time="@nhaSi.GioKetThuc" selected="@ViewBag.IDBACSI">@nhaSi.Ten</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@nhaSi.IDBACSI" data-start-time="@nhaSi.GioBatDau" data-end-time="@nhaSi.GioKetThuc">@nhaSi.Ten</option>
+                                        }
+                                    }
+                                </select>
+                                @Html.ValidationMessageFor(model => model.IDBACSI, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <span>Giờ bắt đầu</span>
+                                <input class="form-control text-box single-line" id="GioBatDau" name="GioBatDau" type="time" value="@ViewBag.GioBatDau" min="08:00" max="20:00" required>
+                                @Html.ValidationMessageFor(model => model.GioBatDau, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <span> Ngày khám</span>
+                                <input class="form-control text-box single-line" id="Ngaydat" name="Ngaydat" type="date" value="" required>
+                                @Html.ValidationMessageFor(model => model.Ngaydat, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <span>Giờ kết thúc</span>
+                                <input class="form-control text-box single-line" id="GioKetThuc" name="GioKetThuc" type="time" value="@ViewBag.GioKetThuc" min="08:00" max="20:00" required>
+                                @Html.ValidationMessageFor(model => model.GioKetThuc, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-12 col-sm-6" hidden>
+                                <input class="form-control text-box single-line" id="id" name="id" type="text" value="@ViewBag.Id " placeholder="Id">
+                                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Đặt Lịch" class=" btn btn-primary w-100 py-3" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- KẾT THÚC ĐẶT LỊCH -->
+
+<script>
+    // Client-side validation for end time greater than start time
+    var gioBatDauInput = document.getElementById("GioBatDau");
+    var gioKetThucInput = document.getElementById("GioKetThuc");
+
+    gioKetThucInput.addEventListener("input", function () {
+        var gioBatDau = gioBatDauInput.value;
+        var gioKetThuc = gioKetThucInput.value;
+
+        if (gioBatDau && gioKetThuc) {
+            if (gioKetThuc <= gioBatDau) {
+                gioKetThucInput.setCustomValidity("Giờ kết thúc phải lớn hơn giờ bắt đầu");
+            } else {
+                gioKetThucInput.setCustomValidity("");
+            }
+        }
+    });
+
+    gioBatDauInput.addEventListener("input", function () {
+        gioKetThucInput.setCustomValidity("");
+    });
+</script>
+<script>
+    // Set the minimum date for "Ngày khám" input to tomorrow's date
+    var tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    var dd = String(tomorrow.getDate()).padStart(2, '0');
+    var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); // January is 0!
+    var yyyy = tomorrow.getFullYear();
+
+    tomorrow = yyyy + '-' + mm + '-' + dd;
+    document.getElementById("Ngaydat").setAttribute("min", tomorrow);
+</script>
+<script>
+    // ...
+
+    var gioBatDauInput = document.getElementById("GioBatDau");
+    var gioKetThucInput = document.getElementById("GioKetThuc");
+    var dentistSelect = document.getElementById("IDBACSI");
+
+    dentistSelect.addEventListener("change", function () {
+        var selectedOption = this.options[this.selectedIndex];
+        var startTime = selectedOption.getAttribute("data-start-time");
+        var endTime = selectedOption.getAttribute("data-end-time");
+
+        gioBatDauInput.value = startTime;
+        gioKetThucInput.value = endTime;
+    });
+
+    // ...
+</script>

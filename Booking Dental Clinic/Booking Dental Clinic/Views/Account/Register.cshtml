@@ -1,0 +1,110 @@
+﻿@model Booking_Dental_Clinic.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<section class="register-section">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Tạo tài khoản mới cho bạn.</h4>
+        <hr />
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+            <div>
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            Họ và tên
+            <div>
+                @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            Mật khẩu
+            <div>
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            Xác nhận mật khẩu
+            <div>
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+           Số điện thoại
+            <div>
+                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+           Xác nhận số điện thoại
+            <div>
+                @Html.TextBoxFor(m => m.ConfirmPhoneNumber, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            Loại tài khoản
+            <div>
+                @Html.DropDownListFor(m => m.Role, new SelectList(new List<string> { "NhaSi", "BenhNhan" }), new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <input type="submit" class="btn btn-primary" value="Đăng Ký" />
+            </div>
+        </div>
+    }
+</section>
+
+<style>
+    .register-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+        .register-section h4 {
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .form-group input[type="submit"] {
+            width: auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+</style>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

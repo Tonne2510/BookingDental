@@ -1,0 +1,42 @@
+﻿@model Booking_Dental_Clinic.Models.DienDan
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">DienDan</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-md-2">
+                @Html.DisplayNameFor(model => model.title)
+            </dt>
+            <dd class="col-md-10">
+                @Html.DisplayFor(model => model.title)
+            </dd>
+
+            <dt class="col-md-2">
+                @Html.DisplayNameFor(model => model.img)
+            </dt>
+            <dd class="col-md-10">
+                <img src="@Url.Content("~/img/diendan/" + Model.img)" alt="Image" class="img-fluid" />
+            </dd>
+
+            <dt class="col-md-2">
+                @Html.DisplayNameFor(model => model.content)
+            </dt>
+            <dd class="col-md-10">
+                @Html.DisplayFor(model => model.content)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id_diendan }, new { @class = "btn btn-primary" }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-secondary" })
+</p>

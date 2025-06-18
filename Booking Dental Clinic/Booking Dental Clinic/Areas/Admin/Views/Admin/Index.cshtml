@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Booking_Dental_Clinic.Models.AspNetUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Nha khoa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333333;
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        p {
+            color: #666666;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+            .profile img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 20px;
+            }
+
+            .profile h2 {
+                margin: 0;
+                color: #333333;
+            }
+
+            .profile p {
+                margin: 0;
+                color: #666666;
+            }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Admin Nha khoa</h1>
+    </div>
+
+    <div class="content">
+        <img class="img-fluid w-100" src="~/img/face.jpg" alt="">
+        <p>Chào bạn, tôi là Lê Văn Toàn, quản trị viên của Nha khoa LTP. Với nhiều năm kinh nghiệm trong ngành nha khoa, tôi rất sẵn lòng giúp đỡ bạn giải quyết mọi thắc mắc hoặc vấn đề liên quan. Hãy thoải mái liên hệ với tôi nếu bạn cần hỗ trợ hoặc thông tin chi tiết.</p>
+        <p>Nha khoa LTP cam kết cung cấp dịch vụ chất lượng vượt trội, đáp ứng mọi yêu cầu của bạn nhờ đội ngũ chuyên gia tận tâm và hệ thống thiết bị tiên tiến. Hãy sắp xếp lịch hẹn với chúng tôi để nhận được sự tư vấn và điều trị tối ưu nhất.</p>
+        <p>Cảm ơn bạn và rất mong được đồng hành cùng bạn!</p>
+    </div>
+</body>
+</html>
+

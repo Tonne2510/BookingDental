@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Booking_Dental_Clinic.Models.HoaDon>
+
+@{
+    ViewBag.Title = "PriceView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2 class="text-center mt-5">Xem Gói Đã Mua</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tổng Tiền</th>
+                    <th>Email</th>
+                    <th>Gói Dịch Vụ</th>
+                    <th>Hình thức thanh toán</th>
+                    <th>Tên nha sĩ</th>
+                    <th>Trạng thái</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.TongTien)</td>
+                        <td>@Html.DisplayFor(modelItem => item.AspNetUser.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GoiDichVu.TenDichVu)</td>
+                        <td>@Html.DisplayFor(modelItem => item.HinhThucThanhToan.TenHinhThuc)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NhaSi.Ten)</td>
+                        <td>
+                            @if (item.TrangThai == true)
+                            {
+                                <span class="text-success">Đã thanh toán</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Chưa Thanh Toán</span>
+                                <button class="btn btn-primary" onclick="cancelBuying('@item.ID_HoaDon')">
+                                    Hủy gói 
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<script>
+    function cancelBuying(buyingId) {
+        if (confirm('Bạn có chắc chắn muốn hủy gói dịch vụ này?')) {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("CancelBuying", "Home")',
+                data: { buyingId: buyingId },
+                success: function (result) {
+                    if (result.success) {
+                        alert('Hủy gói thành công.');
+                        location.reload();
+                    } else {
+                        alert('Không thể hủy gói dịch vụ.');
+                    }
+                },
+                error: function () {
+                    alert('Đã xảy ra lỗi khi hủy gói dịch vụ.');
+                }
+            });
+        }
+    }
+</script>
